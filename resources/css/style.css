@@ -1,0 +1,88 @@
+/* Basic Setup */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    text-rendering: optimizeLegibility;
+}
+
+/* Background */
+header {
+    background-image: url(img/office.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+/* Div for all content*/
+.text-box {
+    margin: auto;
+    width: 30%;
+    padding-top: 150px;
+}
+
+/* Text styling */
+h1 {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 200%;
+    word-spacing: 2px;
+    letter-spacing: 1.5px;
+    margin-top: 0;
+    margin-bottom: 60px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+/* Input and Button */
+input {
+    margin-right: 5px;
+    border: 1.5px solid #555;
+}
+
+input:focus {
+    border: 2.5px solid #222;
+    outline:0;
+}
+
+button {
+    margin: 4px 2px 60px 2px;
+    transition-duration: 0.3s;
+    border-radius: 200px;
+    padding: 0 20px;
+    border: 1.5px solid #555;
+    color: white;
+    background-color: #555;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #222;
+    border: 1.5px solid #222;
+}
+
+button:focus {
+    outline:0;
+}
+
+/* Animations */
+.rollIn {
+    animation-delay: .3s;
+}
+
+.animation {
+    animation-duration: 3s;
+}
